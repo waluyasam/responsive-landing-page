@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Satisfy&family=Tenali+Ramakrishna&display=swap');
+:root {
+    --font1: 'Montaga', serif;
+    --font2: 'Tenali Ramakrishna', sans-serif;
+    --font3: 'Satisfy', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    margin-left: 58rem;
+    height: 15rem;
+
+}
+
+.temperature-value p {
+    margin-top: -16px;
+    margin-left: 6rem;
+}
+
+.temperature-description p,
+.location p {
+    margin-left: 4rem;
+}
+
+h1 {
+    color: #eeeeee;
+    left: 2rem;
+    margin-left: 10rem;
+    padding-top: 7rem;
+    font-size: 3rem;
+
+}
+
+#time {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 56rem;
+    font-size: 20px;
+    color: #fff;
+    font-family: var(--font1);
+}
+
+#salute {
+    font-family: var(--font1);
+}
+
+#name {
+    font-family: var(--font3);
+    font-size: 2rem;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.enjoy {
+    height: 50%;
+    font-family: var(--font2);
+    color: #eeeeee;
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-left: 12rem;
+
+}
+
+
+.weather-icon {
+    margin-left: 0.5rem;
+}
+
+.notification {
+    background-color: #eeeeee;
+}
+
+.temperature-description,
+.temperature-value,
+.location {
+    color: #fff3f8;
+    margin-left: 2rem;
+    font-family: var(--font3);
+}
+
+.temperature-value {
+    margin-left: 3rem;
+}
+
+.location {
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 1145px){
+    .weather-container {
+        margin-left: 50rem;
+
+    }
+
+    #time {
+        margin-left: 48rem;
+
+    }
+
+    h1 {
+        margin-left: 6rem;
+        font-size: 2rem;
+    }
+
+    .enjoy{
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .weather-container {
+        margin-left: 32rem;
+
+    }
+
+    #time {
+        margin-left: 30.5rem;
+
+    }
+
+    h1 {
+        margin-left: 6rem;
+        font-size: 2rem;
+    }
+
+    .enjoy{
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .weather-container {
+        margin-left: 22rem;
+
+    }
+
+    #time {
+        margin-left: 20rem;
+    }
+
+    h1 {
+        margin-left: 6rem;
+        font-size: 2rem;
+    }
+
+    .enjoy{
+        margin-left: 8rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .weather-container {
+        margin-left: 8rem;
+
+    }
+
+    #time {
+        margin-left: 6rem;
+    }
+
+    h1 {
+        margin-left: 3.5rem;
+        font-size: 1rem;
+    }
+
+    .enjoy{
+        margin-left: 4rem;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
